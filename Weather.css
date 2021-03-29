@@ -1,4 +1,4 @@
-h1,h2,h3,span{
+h1,h2,h3,h4,p,span{
   margin:0;
 }
 h1{
@@ -11,6 +11,16 @@ h2{
 h3{
   font-size: 1.4rem;
 }
+h4{
+  font-size: 1.0rem;
+}
+h5{
+  font: 1.0rem;
+}
+p{
+  font-size: 1.0rem;
+}
+
 span{
   font-size: 6rem;
 }

@@ -23,11 +23,18 @@ $(document).ready(function(){
         var temp = Math.round(data.main.temp);
         var desc = data.weather[0].description;
         var icon = data.weather[0].icon;
+        var pressure = data.main.pressure;
+        var humidity = data.main.humidity;
+
+        //"pressure":1027.45, "humidity":100, "temp_min":22.59, "temp_max":22.59, "sea_level":1027.47
 
         $('#city').html(city);
         $('#temp').html(temp);
         $('#desc').html(desc);
         $('#icon').attr('src',icon);
+        $('#pressure').html(pressure);
+        $('#humidity').html(humidity);
+
 
     }
 });
